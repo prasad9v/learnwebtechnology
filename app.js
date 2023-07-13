@@ -1,3 +1,3 @@
 
 const revStrTarget = document.querySelector('#reverseString')
-revString = event => revStrTarget.textContent = event.target.innerHTML.reverse() 
+revString = event => revStrTarget.textContent = revStrTarget.textContent.reverse() 
