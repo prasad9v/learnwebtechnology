@@ -1,6 +1,6 @@
 
-const dataStringEl = document.querySelector('#dataString')
-const targetStringEl = document.querySelector('#reverseString')
+const messageEl = document.querySelector('#messaage')
+const displayEl = document.querySelector('#display')
 
-const reverseStr = e => targetStringEl.innerText = [...dataStringEl.textContent].reverse().join('')
-const clearEl = e => targetStringEl.innerText = ''
+const reverseMessage = e => displayEl.innerText = [...messageEl.textContent].reverse().join('')
+const clearDisplay = e => displayEl.innerText = ''
