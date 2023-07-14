@@ -13,4 +13,4 @@ const mouseEl = document.querySelector('#mouse');
 
 const reverseMessage = e => displayEl.innerText = [...messageEl.textContent].reverse().join('')
 const clearDisplay = e => displayEl.innerText = ''
-const displayObject = e => mouseEl.innerText= mouse.brand 
+const displayObject = e => mouseEl.innerText= `My shiny mouse object is brand ${mouse.brand}` 
